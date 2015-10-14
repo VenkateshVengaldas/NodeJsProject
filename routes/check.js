@@ -13,6 +13,7 @@ var quotes = [
 
 router.get('/', function(req, res) {
     res.json(quotes);
+    //TEST
 });
 
 module.exports = router;
